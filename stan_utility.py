@@ -193,7 +193,6 @@ def partition_div(fit):
 def compile_model(filename, model_name=None, **kwargs):
     """This will automatically cache models - great if you're just running a
     script on the command line.
-
     See http://pystan.readthedocs.io/en/latest/avoiding_recompilation.html"""
     from hashlib import md5
 
